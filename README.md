@@ -11,8 +11,7 @@ Ao receber o número, é removido o último elemento e somado mais 1 ao número 
 Número exemplo: 261532-9
 
 Número exemplo + 1 = 261533 - 9
-
-## Tables
+```sh
 +---+---+---+---+---+---+   +---+
 | 2 | 6 | 1 | 5 | 3 | 3 | - | 9 |
 +---+---+---+---+---+---+   +---+
@@ -21,6 +20,8 @@ Número exemplo + 1 = 261533 - 9
   |   |   |   |   |   |
 =14 =36  =5 =20  =9  =6
   +---+---+---+---+---+-> =90 x10, /11 =81, resto 9 => DV = 9
+  ```
+ 
 A somatória dessas multiplicações é multiplicada por 10 e dividida por 11. O resto desta divisão (módulo 11) é o dígito verificador que será acrescentado ao número no lugar do dígito removido.
 
 Em outro método de cálculo a somatória das multiplicações não é multiplicada por 10. Simplesmente é dividida por 11. Só que neste caso o resto pode ser 10. Se isso acontece o dígito será "0".
